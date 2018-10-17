@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Investment Calculator</title>
+</head>
+<body>
+    <form action="#" id='invest' name='Invest'>
+        <p class='open'>Welcome! In order to find the result of your investment, answer the following questions:</p>
+        <p>What's your initial investment?</p>
+        $<input type="number" id='princ'>
+        
+        <p>Pick an interest rate between 2% and 7%.</p>
+        <input type="number" id='int'>%
+
+        <p>How often would you like to make deposits (enter answer in months)?</p>
+        <input type="number" id='periods'> months
+
+        <p>How much will you deposit each period?</p>
+        $<input type="number" id='amount'><br>
+
+        <p>How many years do you plan to save?</p>
+        <input type="number" id='time'>years<br>
+        <input type="submit" value='submit'>
+    </form>
+
+    
+    <p id='answer'>Answer</p>
+    
+
+    <script src='apps.js'></script>
+</body>
+</html>
